@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Professional Digital Clock — David Chukwunonye Osigwe</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="wrap" role="main">
+    <header class="header">
+      <h1 class="title">Digital Clock</h1>
+      <div class="controls">
+        <label class="toggle">
+          <input id="formatToggle" type="checkbox" />
+          <span class="toggle-track" aria-hidden="true"></span>
+          <span class="toggle-label">24h</span>
+        </label>
+      </div>
+    </header>
+
+    <section class="clock" aria-label="Digital clock" aria-live="polite">
+      <div class="time" id="time">
+      </div>
+      <div class="date" id="date" aria-hidden="false"></div>
+      <div class="tz" id="tz" aria-hidden="true"></div>
+    </section>
+
+    <footer class="footer">
+      <small>Built by David Chukwunonye Osigwe • HTML • CSS • JavaScript</small>
+    </footer>
+  </main>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
